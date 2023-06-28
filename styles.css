@@ -1,3 +1,26 @@
-* {
-    color: aquamarine;
+body {
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: thin;
+    text-align: center;
+    text-decoration: underline;
+    background-color: greenyellow;
+}
+
+.photo img {
+    object-position: center;
+    width: 24vw;
+    height: auto;
+    padding-left: 100px;
+}
+
+.link a {
+    font-size: 3vw;
+    text-decoration: none;
+    padding-left:200px;
 }
