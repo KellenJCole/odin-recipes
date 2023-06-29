@@ -20,7 +20,7 @@ body {
 
 .link {
     text-align: center;
-    width: 100%;
+    margin-left: 180px;
 }
 
 .link a {
@@ -29,8 +29,10 @@ body {
     font-size: 60px;
     color: white;
     text-decoration: none;
-    width: 33%;
-    background-color: aqua;
+    margin-right: 220px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    box-shadow: 3px 3px gray;
 }
 
 .recipe {
