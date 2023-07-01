@@ -4,6 +4,25 @@ body {
     margin: 0;
 }
 
+#main-header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: thin;
+    color: white;
+    text-decoration: none;
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+body header {
+    padding: 30px;
+    width: 100%;
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+
 .photo-container {
     display: flex;
     justify-content: center;
@@ -38,9 +57,20 @@ body {
     font-size: 60px;
     color: white;
     text-decoration: none;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
     background-color: black;
     box-shadow: 3px 3px gray;
+    width: 20%;
+}
+
+.bio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bio p {
+    text-align: center;
+    flex: 0 0 auto;
 }
 
 .recipe {
@@ -71,33 +101,4 @@ body {
 
 .recipe a {
     color:darkorchid;
-}
-
-#main-header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 60px;
-    font-weight: thin;
-    color: white;
-    text-decoration: none;
-    width: 300px;
-    margin: 0 auto;
-    display: inline-block;
-    white-space: nowrap;
-}
-
-body header {
-    padding: 30px;
-    width: 100%;
-    background-color: blueviolet;
-    box-sizing: border-box;
-}
-
-.bio {
-    display: flex;
-    justify-content: space-around;
-}
-
-.bio p {
-    text-align: center;
-    flex: 0 0 auto;
 }
