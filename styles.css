@@ -28,18 +28,17 @@ body {
   }
 
 .link {
-    text-align: center;
-    margin: 0 auto;
     display: flex;
+    justify-content: space-around;
 }
 
 .link a {
-    flex: 1;
-    box-sizing: border-box;
+    text-align: center;
+    flex: 0 0 auto;
     font-size: 60px;
     color: white;
     text-decoration: none;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 10px 10px 10px;
     background-color: black;
     box-shadow: 3px 3px gray;
 }
@@ -95,9 +94,10 @@ body header {
 
 .bio {
     display: flex;
+    justify-content: space-around;
 }
 
 .bio p {
     text-align: center;
-    flex: 1;
+    flex: 0 0 auto;
 }
